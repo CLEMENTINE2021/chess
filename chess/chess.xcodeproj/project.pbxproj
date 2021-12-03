@@ -7,11 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2AFD182926F05B89007C2794 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 2AFD182826F05B89007C2794 /* main.c */; };
+		2AA389D42721D0C800F2E76B /* game.c in Sources */ = {isa = PBXBuildFile; fileRef = 2AA389D32721D0C800F2E76B /* game.c */; };
+		2AD109A627187FBC004A120D /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 2AD109A527187FBC004A120D /* main.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		2AFD182326F05B89007C2794 /* CopyFiles */ = {
+		2AD109A027187FBC004A120D /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -23,12 +24,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		2AFD182526F05B89007C2794 /* b站练习 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "b站练习"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2AFD182826F05B89007C2794 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; tabWidth = 4; };
+		2AA389D22721D0C800F2E76B /* game.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = game.h; sourceTree = "<group>"; };
+		2AA389D32721D0C800F2E76B /* game.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = game.c; sourceTree = "<group>"; };
+		2AD109A227187FBC004A120D /* chess */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = chess; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AD109A527187FBC004A120D /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2AFD182226F05B89007C2794 /* Frameworks */ = {
+		2AD1099F27187FBC004A120D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,64 +41,66 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2AFD181C26F05B89007C2794 = {
+		2AD1099927187FBC004A120D = {
 			isa = PBXGroup;
 			children = (
-				2AFD182726F05B89007C2794 /* b站练习 */,
-				2AFD182626F05B89007C2794 /* Products */,
+				2AA389D22721D0C800F2E76B /* game.h */,
+				2AA389D32721D0C800F2E76B /* game.c */,
+				2AD109A427187FBC004A120D /* chess */,
+				2AD109A327187FBC004A120D /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		2AFD182626F05B89007C2794 /* Products */ = {
+		2AD109A327187FBC004A120D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2AFD182526F05B89007C2794 /* b站练习 */,
+				2AD109A227187FBC004A120D /* chess */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2AFD182726F05B89007C2794 /* b站练习 */ = {
+		2AD109A427187FBC004A120D /* chess */ = {
 			isa = PBXGroup;
 			children = (
-				2AFD182826F05B89007C2794 /* main.c */,
+				2AD109A527187FBC004A120D /* main.c */,
 			);
-			path = "b站练习";
+			path = chess;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2AFD182426F05B89007C2794 /* b站练习 */ = {
+		2AD109A127187FBC004A120D /* chess */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2AFD182C26F05B89007C2794 /* Build configuration list for PBXNativeTarget "b站练习" */;
+			buildConfigurationList = 2AD109A927187FBC004A120D /* Build configuration list for PBXNativeTarget "chess" */;
 			buildPhases = (
-				2AFD182126F05B89007C2794 /* Sources */,
-				2AFD182226F05B89007C2794 /* Frameworks */,
-				2AFD182326F05B89007C2794 /* CopyFiles */,
+				2AD1099E27187FBC004A120D /* Sources */,
+				2AD1099F27187FBC004A120D /* Frameworks */,
+				2AD109A027187FBC004A120D /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "b站练习";
-			productName = "b站练习";
-			productReference = 2AFD182526F05B89007C2794 /* b站练习 */;
+			name = chess;
+			productName = chess;
+			productReference = 2AD109A227187FBC004A120D /* chess */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		2AFD181D26F05B89007C2794 /* Project object */ = {
+		2AD1099A27187FBC004A120D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1250;
+				LastUpgradeCheck = 1300;
 				TargetAttributes = {
-					2AFD182426F05B89007C2794 = {
+					2AD109A127187FBC004A120D = {
 						CreatedOnToolsVersion = 12.5.1;
 					};
 				};
 			};
-			buildConfigurationList = 2AFD182026F05B89007C2794 /* Build configuration list for PBXProject "b站练习" */;
+			buildConfigurationList = 2AD1099D27187FBC004A120D /* Build configuration list for PBXProject "chess" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -103,29 +108,30 @@
 				en,
 				Base,
 			);
-			mainGroup = 2AFD181C26F05B89007C2794;
-			productRefGroup = 2AFD182626F05B89007C2794 /* Products */;
+			mainGroup = 2AD1099927187FBC004A120D;
+			productRefGroup = 2AD109A327187FBC004A120D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2AFD182426F05B89007C2794 /* b站练习 */,
+				2AD109A127187FBC004A120D /* chess */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2AFD182126F05B89007C2794 /* Sources */ = {
+		2AD1099E27187FBC004A120D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2AFD182926F05B89007C2794 /* main.c in Sources */,
+				2AD109A627187FBC004A120D /* main.c in Sources */,
+				2AA389D42721D0C800F2E76B /* game.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		2AFD182A26F05B89007C2794 /* Debug */ = {
+		2AD109A727187FBC004A120D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -184,7 +190,7 @@
 			};
 			name = Debug;
 		};
-		2AFD182B26F05B89007C2794 /* Release */ = {
+		2AD109A827187FBC004A120D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -236,17 +242,19 @@
 			};
 			name = Release;
 		};
-		2AFD182D26F05B89007C2794 /* Debug */ = {
+		2AD109AA27187FBC004A120D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		2AFD182E26F05B89007C2794 /* Release */ = {
+		2AD109AB27187FBC004A120D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -255,25 +263,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2AFD182026F05B89007C2794 /* Build configuration list for PBXProject "b站练习" */ = {
+		2AD1099D27187FBC004A120D /* Build configuration list for PBXProject "chess" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2AFD182A26F05B89007C2794 /* Debug */,
-				2AFD182B26F05B89007C2794 /* Release */,
+				2AD109A727187FBC004A120D /* Debug */,
+				2AD109A827187FBC004A120D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2AFD182C26F05B89007C2794 /* Build configuration list for PBXNativeTarget "b站练习" */ = {
+		2AD109A927187FBC004A120D /* Build configuration list for PBXNativeTarget "chess" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2AFD182D26F05B89007C2794 /* Debug */,
-				2AFD182E26F05B89007C2794 /* Release */,
+				2AD109AA27187FBC004A120D /* Debug */,
+				2AD109AB27187FBC004A120D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 2AFD181D26F05B89007C2794 /* Project object */;
+	rootObject = 2AD1099A27187FBC004A120D /* Project object */;
 }
